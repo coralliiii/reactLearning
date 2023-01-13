@@ -36,6 +36,7 @@
             console.log(this.myRef.current)
             console.log(this.myRef2.current)
         }
+
         render(){
             const {isHot} = this.state
             return(
@@ -47,6 +48,7 @@
         }
     }
     
+    console.log("变化内容")
     // 2.渲染
     ReactDOM.render(<Demo/>,document.getElementById('test')) 
 
